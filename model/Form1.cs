@@ -14,5 +14,10 @@ namespace model
         {
             InitializeComponent();
         }
+
+        private void BeamStart_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

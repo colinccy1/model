@@ -28,12 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.BeamStart = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // BeamStart
+            // 
+            this.BeamStart.Location = new System.Drawing.Point(197, 12);
+            this.BeamStart.Name = "BeamStart";
+            this.BeamStart.Size = new System.Drawing.Size(75, 23);
+            this.BeamStart.TabIndex = 0;
+            this.BeamStart.Text = "开始";
+            this.BeamStart.UseVisualStyleBackColor = true;
+            this.BeamStart.Click += new System.EventHandler(this.BeamStart_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.BeamStart);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button BeamStart;
     }
 }
 
